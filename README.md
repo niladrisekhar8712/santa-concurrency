@@ -59,38 +59,6 @@ Each function simulates a specific role:
   This version executes only once — Santa checks the current state and responds.  
   It’s designed for clarity rather than continuous looping behavior.
 
----
-
-## 🏗️ Project Structure
-
-📁 santa-concurrency/
-├── santa.cpp # Main source file (contains all logic)
-├── README.md # Project documentation
-└── Makefile (optional)
-
-yaml
-Copy code
-
----
-
-## 🧰 How to Build & Run
-
-### 🔧 Compile
-Use `g++` with C++20 support:
-```bash
-g++ -std=c++20 -pthread santa.cpp -o santa
-▶️ Run
-bash
-Copy code
-./santa
-💡 Sample Output
-vbnet
-Copy code
-I am awakened by 140055733569280
-I am awakened by 140055725176576
-...
-I am Santa, It's time to deliver gifts,
-I am putting to sleep by 140055725176576
 ...
 🚀 Possible Improvements
 Add condition variables or semaphores for more realistic continuous Santa behavior.
@@ -101,5 +69,6 @@ Improve output synchronization for cleaner terminal output.
 
 📚 References
 Hoare, C. A. R. “Communicating Sequential Processes”, 1978.
+
 
 The Santa Claus concurrency problem is a classic synchronization exercise used in operating systems and concurrent programming education.
