@@ -1,0 +1,3 @@
+D:/Users/Niladri/CLionProjects/santa_claus_problem/cmake-build-debug/CMakeFiles/santa_claus_problem.dir
+D:/Users/Niladri/CLionProjects/santa_claus_problem/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Users/Niladri/CLionProjects/santa_claus_problem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
