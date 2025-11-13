@@ -59,15 +59,16 @@ Each function simulates a specific role:
   This version executes only once — Santa checks the current state and responds.  
   It’s designed for clarity rather than continuous looping behavior.
 
-...
-🚀 Possible Improvements
+---
+
+## 🚀 Possible Improvements
 Add condition variables or semaphores for more realistic continuous Santa behavior.
 
 Allow Santa to wake dynamically whenever elves or reindeer trigger events.
 
 Improve output synchronization for cleaner terminal output.
 
-📚 References
+## 📚 References
 Hoare, C. A. R. “Communicating Sequential Processes”, 1978.
 
 
